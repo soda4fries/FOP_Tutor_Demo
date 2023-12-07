@@ -13,7 +13,7 @@ public class Person {
 
     //private so that it can be modified in a specified way only, see set ages and search **encapsulation**
     // and ***OOP data abstraction
-
+    // also check constructor and setAge
     private int age;
 
     private static int totalPerson = 0;
@@ -24,7 +24,7 @@ public class Person {
 
     Person(String name, int age) {
         this.name = name;
-        this.age = age;
+        setAge(age); // check this method
         totalPerson++;
         System.out.println("Person Created");
     }
@@ -47,6 +47,7 @@ public class Person {
 
 
     public void setAge(int age) {
+        if (age < 0) throw new RuntimeException("Invalid age"); // having data private and using mutators allow us to make sure only valid values are applied
         this.age = age;
     }
 
