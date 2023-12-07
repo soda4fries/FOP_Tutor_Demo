@@ -3,11 +3,11 @@ package BasicOOPUtility;
 import BasicOOP.Person;
 
 
-public class Utilites {
+public class Utilities {
 
     Person[] persons;
 
-    public Utilites(Person[] persons) {
+    public Utilities(Person[] persons) {
         this.persons = persons;
     }
 

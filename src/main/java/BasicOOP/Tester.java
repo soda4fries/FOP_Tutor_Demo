@@ -1,7 +1,7 @@
 package BasicOOP;
 
 
-import BasicOOPUtility.Utilites;
+import BasicOOPUtility.Utilities;
 
 import java.util.Arrays;
 
@@ -76,7 +76,7 @@ public class Tester {
 
         //We have created a package with function that work on people, then import it just like u import Arrays, Scanners etc
         //Because it is in different Package eg Folder must be imported, check the import part and the Utilities
-        Utilites util = new Utilites(manyPeople);
+        Utilities util = new Utilities(manyPeople);
         util.increaseAge(); //used a function in the util
 
 
