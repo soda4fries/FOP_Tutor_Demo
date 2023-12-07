@@ -52,7 +52,7 @@ public class Person {
     }
 
     public void setAge(String yearBorn) {
-        this.age = 0; // lets say u find age from year born to today instead of giving it fixed
+        this.age = 0; // let's say u find age from year born to today instead of giving it fixed
     }
 
     public static int getTotalPerson() {
