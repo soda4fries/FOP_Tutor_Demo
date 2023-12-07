@@ -5,7 +5,7 @@ import java.io.*;
 public class DataWriterPrimitives {
     public static void main(String[] args) {
         String fileName = "primitives.dat";
-
+        
         // Writing primitive data to a file
         try (DataOutputStream dataOutputStream = new DataOutputStream(new FileOutputStream(fileName))) {
             int intValue = 42;

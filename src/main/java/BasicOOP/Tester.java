@@ -1,6 +1,10 @@
 package BasicOOP;
 
 
+import BasicOOPUtility.Utilites;
+
+import java.util.Arrays;
+
 /**
  * We will go through basics of OOP in here
  *
@@ -62,9 +66,27 @@ public class Tester {
         //Constructor in Student calls super() from parent, so total person increases with student
         System.out.println("Total Count:" + Person.getTotalPerson());
 
+
+        Person[] manyPeople = {
+                new Person("T1", 25),
+                new Person("T2", 27),
+                new Student("T4", 20, "CS")
+        };
+
+
+        //We have created a package with function that work on people, then import it just like u import Arrays, Scanners etc
+        //Because it is in different Package eg Folder must be imported, check the import part and the Utilities
+        Utilites util = new Utilites(manyPeople);
+        util.increaseAge(); //used a function in the util
+
+
+        //Print it out using java provided utils that work more generally on objects
+        System.out.println(Arrays.toString(manyPeople));
+
     }
 
     public static void isHappyTester(Person x) {
         x.isHappy();
     }
+
 }
