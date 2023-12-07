@@ -1,7 +1,12 @@
 package BasicOOP;
 
-import javax.sound.midi.Soundbank;
-import java.util.SortedMap;
+
+/**
+ * We will go through basics of OOP in here
+ *
+ *
+ * @author Soda4fries
+ */
 
 public class Tester {
     public static void main(String[] args) {

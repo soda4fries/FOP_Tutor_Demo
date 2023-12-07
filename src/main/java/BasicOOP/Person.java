@@ -1,10 +1,19 @@
 package BasicOOP;
 
+
+/**
+ * Simple Parent Class
+ *
+ *
+ * @author Soda4fries
+ */
+
 public class Person {
     private String name;
 
     //private so that it can be modified in a specified way only, see set ages and search **encapsulation**
     // and ***OOP data abstraction
+
     private int age;
 
     private static int totalPerson = 0;

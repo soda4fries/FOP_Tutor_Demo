@@ -2,6 +2,13 @@ package OOPmore;
 
 import java.util.Arrays;
 
+/**
+ * We will go through some more OOP
+ *
+ *
+ * @author Soda4fries
+ */
+
 public class Tester {
     public static void main(String[] args) {
 
